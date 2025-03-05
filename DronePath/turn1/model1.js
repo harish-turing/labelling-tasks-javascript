@@ -55,3 +55,12 @@ console.log("Optimized Route:");
 optimizedRoute.forEach((waypoint, index) => {
     console.log(`Waypoint ${index + 1}: (${waypoint.x}, ${waypoint.y})`);
 });
+
+/* Output:
+    Optimized Route:
+    Waypoint 1: (0, 0)
+    Waypoint 2: (5, 5)
+    Waypoint 3: (10, 0)
+    Waypoint 4: (0, 10)
+    Waypoint 5: (0, 0)
+*/
